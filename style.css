@@ -1,0 +1,272 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left, .right{
+    display: flex;
+    align-items: center;
+}
+
+.nav-items{
+    margin: 20px;
+}
+
+img{
+    width: 100px;
+    height: 30px;
+}
+
+.search-div{
+    width: 620px;
+    height: 40px;
+    border: 2px solid rgb(233, 233, 233);;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search-div:hover{
+    -webkit-box-shadow: 0 0 5px rgb(146, 146, 146);
+
+}
+
+.search-div:hover .button{
+    visibility: visible;
+    border: 0px;
+    border-radius: 50px;
+    padding: 5px 8px;
+    background-color: white;
+    color: rgb(146, 146, 146);
+}
+
+input{
+    margin-left: 15px;
+    width: 445px;
+    border: 0px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.button{
+    visibility: hidden;
+}
+
+.search-div:hover .button:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+.icon{
+    border-left: 1px solid black;
+    padding-left: 10px;
+}
+
+.table-div{
+    width: 18px;
+    height: 18px;
+}
+
+td{
+    padding: 1px;
+}
+
+.s{
+    padding: 2px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.nav-border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+}
+.nav-border:hover{
+    visibility: visible;
+    background-color: rgb(230, 230, 230);
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height:30px;
+    width: 30px;
+    background-color: purple;
+    border-radius: 50px;
+}
+
+.search-option{
+    display: flex;
+    height:35px;
+    justify-content: space-between;
+}
+
+.content{
+    display:flex;
+    flex-flow: column nowrap;
+    margin-left: 160px;
+    margin-right: 520px;
+}
+
+.search-option-space{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 9px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 4px solid white;
+    color: grey;
+}
+
+.search-option-left{
+    display: flex;
+    align-items: center;
+}
+
+.search-option-right{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+.hover-blue:hover{
+    color: blue;
+}
+
+.hover-blue:hover .more-table{
+    background-color:blue;
+}
+
+i{
+    margin-right: 5px;
+}
+
+.bottom-border{
+    color:blue;
+    border-bottom: 4px solid blue;
+}
+
+.more-table{
+    padding: 2px;
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.line-break{
+    background-color: rgb(214, 214, 214);
+    padding: 0.5px;
+    margin:0px;
+}
+
+.search-results{
+    display:flex;
+    flex-flow: column nowrap;
+    margin: 10px 520px 0px 165px;
+}
+
+.link-head{
+    color:blue;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+
+.header-hover:hover a .link-head
+{
+    text-decoration: underline;
+}
+
+.ad-style{
+    display: flex;
+    align-items: center;
+    color: green;
+}
+.ad-website{
+    margin: 0px 7px;
+    
+}
+
+.ad-logo{
+    border:1px solid green;
+    border-radius: 2px;
+    padding: 0px 2px 1px 2px;
+    height: 18px;
+    font-size: 12px;
+}
+
+.bottom-links{
+    display: flex;
+}
+
+.link-style{
+    color:blue;
+    margin-right: 5px;
+}
+
+.link-style:hover{
+    text-decoration: underline;
+}
+
+.p-color{
+    color: rgb(95, 95, 95);
+}
+
+.dropdown-search{
+    display:flex;
+    flex-flow: column nowrap;
+    margin: 10px 505px 0px 150px;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 5px;
+}
+.dropdown-items{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(192, 192, 192);
+    padding: 0px 15px;
+}
+
+.feedback{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 520px 0px 150px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgb(109, 109, 109);
+}
+.feedback:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    
+}
