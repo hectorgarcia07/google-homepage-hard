@@ -267,6 +267,43 @@ i{
     text-decoration: underline;
 }
 
-.footer{
-    
+.google-results-logo{
+    display:flex;
+    align-items: baseline;
+    justify-content: center;
+    margin: 20px 520px 0px 165px;
+}
+.google-o{
+    height:22px;
+    width: 17px;
+    font-size: 28px;
+    color: rgb(212, 212, 0);
+}
+.google-align{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.number-link{
+    color:blue;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+td .number-link:hover{
+    text-decoration: underline;
+}
+div .number-link:hover{
+    text-decoration: underline;
+}
+ul li::before{
+    content: "•";
+    color:back;
+}
+
+.footer-space{
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: rgb(105, 105, 105);
 }
